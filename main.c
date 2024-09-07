@@ -2,13 +2,12 @@
 #include<math.h>
 
  int sumfunction(int array[], int size){
-        int sum =0;
-
-    for(int i=0; i<size; i++){
-        sum += array[i];
-    }
+	 int sum =0;
+   	 for(int i=0; i<size; i++){
+  	      sum += array[i];
+  	 }
     
-    return sum;
+   	 return sum;
 
     }
 
@@ -32,7 +31,6 @@ float standardfunction(int array[], int size){
         return sqrt(numerator);
 
     }
-// (((num1-avg)^2 + (num2-avg)^2...)/size-1)^1/2
 
 
 int main(){
@@ -55,7 +53,7 @@ int main(){
 
     printf("sum of the numbers is: %d\n", resultsum);
     printf("the average is : %f\n", resultaverage);
-    printf("standard deviation is: %f", resultstandard);
+    printf("standard deviation is: %f\n", resultstandard);
 
     return 0;
 }
